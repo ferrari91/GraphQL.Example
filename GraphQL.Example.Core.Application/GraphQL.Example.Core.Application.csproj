@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GraphQL.Example.Core.Domain\GraphQL.Example.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
