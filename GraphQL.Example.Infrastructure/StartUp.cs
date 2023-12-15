@@ -23,13 +23,13 @@ namespace GraphQL.Example.Infrastructure
             }
         }
 
-        public static void InfrastructureBuilder(this IApplicationBuilder _, IEndpointRouteBuilder endpoint, IConfiguration config)
+        public static void InfrastructureBuilder(this IApplicationBuilder _, IEndpointRouteBuilder endpoint)
         {
             endpoint.MapGraphQL<PersonSchema, GraphQLHttpMiddleware<PersonSchema>>("/graphql");
             endpoint.MapGraphQLPlayground(
                 new PlaygroundOptions
                 {
-                    GraphQLEndPoint = config["ROUTE_PREFIX"] + "/graphql"
+                    GraphQLEndPoint = "/graphql"
                 }, "/ui/graphql");
         }
     }
