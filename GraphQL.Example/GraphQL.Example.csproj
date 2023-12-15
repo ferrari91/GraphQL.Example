@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GraphQL.Example.Core.Application\GraphQL.Example.Core.Application.csproj" />
+    <ProjectReference Include="..\GraphQL.Example.Core.Domain\GraphQL.Example.Core.Domain.csproj" />
+    <ProjectReference Include="..\GraphQL.Example.Infrastructure\GraphQL.Example.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

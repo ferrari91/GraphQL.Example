@@ -2,7 +2,7 @@
 using GraphQL.Example.Core.Domain.Entity;
 using Microsoft.EntityFrameworkCore;
 
-namespace GraphQL.Example.Infrastructure.DataContext
+namespace GraphQL.Example.Infrastructure.DataBase
 {
     public class DataContext : DbContext
     {

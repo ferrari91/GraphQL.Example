@@ -1,7 +1,7 @@
 ﻿using GraphQL.Example.Core.Domain.Common;
 using Microsoft.EntityFrameworkCore;
 
-namespace GraphQL.Example.Infrastructure.DataContext
+namespace GraphQL.Example.Infrastructure.DataBase
 {
     public class DataConfiguration<T> where T : BaseEntity
     {
