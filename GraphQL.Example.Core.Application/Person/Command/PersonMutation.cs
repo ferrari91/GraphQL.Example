@@ -20,6 +20,8 @@ namespace GraphQL.Example.Core.Application.Person.Command
                var person = context.GetArgument<PersonEntity>("person");
                var data = await personRepository.AddAsync(person);
 
+               await personRepository.SaveChangesAsync();
+
                return data.Id;
            }
        );
