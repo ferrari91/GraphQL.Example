@@ -8,9 +8,11 @@ Cadastrar uma entidade Person com os seguintes registros Id, Name e Age pelo mut
 
 ## Utilizando a API
 Mutation:
+
 ![image](https://github.com/ferrari91/GraphQL.Example/assets/54671169/5c23e971-19ab-42de-9999-e14670e724dd)
 
 Query:
+
 ![image](https://github.com/ferrari91/GraphQL.Example/assets/54671169/96258ffe-2581-4380-bfe0-5159c22d39fe)
 
 ![image](https://github.com/ferrari91/GraphQL.Example/assets/54671169/4455d8ce-3880-4f2e-b0ee-743c051689a5)
