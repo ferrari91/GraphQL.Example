@@ -22,7 +22,7 @@ maiores informações consultar o Schema e Docs no graphql da aplicação.
 ## Executando Docker
 Para executar a api é necessário utilizar os seguintes comandos.
 - docker build -t graphql-example -f GraphQL.Example/Dockerfile .
-- docker run -d -p 5000:80 --name graphql-example-container graphql-example
+- docker run -d -p 5000:811 --name graphql-example-container graphql-example
 
 Após a execução dos comandos basta acessar a url: http://localhost:5000/ui/graphql
 
