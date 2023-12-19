@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 80
+EXPOSE 811
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
@@ -27,3 +27,4 @@ ENTRYPOINT ["dotnet", "GraphQL.Example.dll"]
 
 # Add the following line to include the SQLite command in the Dockerfile
 RUN apt-get update && apt-get install -y sqlite3
+ENV ASPNETCORE_URLS=http://+:811
